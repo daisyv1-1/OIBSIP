@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(Untitled\ design.jpg)no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navigation a{
+    color: black;
+    background: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+}
+header .navigation a:not(:last-child){
+    margin-right: 20px;
+}
+header .navigation a:hover{
+    color: #ececec;
+    background: black;
+}
+.content{
+    max-width: 800px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    margin: 50px 80px;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.content .info p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 55px;
+    margin-bottom: 5px;
+}
+.content .info-btn{
+    font-size: larger;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-bottom: 26px;
+    margin: 55px;
+    align-items: center;
+}
+.content .info-btn:hover{
+    color: black;
+    background-color: #ececec;
+}
+.fa-brands{
+    color:black;
+    margin-top: 20px;
+    size: 25px;
+}
